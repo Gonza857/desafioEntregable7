@@ -2,25 +2,28 @@
     background-image: linear-gradient(to top, $verdeClaro, $verdeMedio);
 
     .navbar-brand {
-         color: #000;
-         font-family: $brandFont;
-         transition: all .3s;
-         &:hover {
-             transform: scale(1.05);
+        color: #000;
+        font-family: Helvetica;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 2px;
+        transition: all .3s;
+        &:hover {
+            transform: scale(1.05);
         }
 
         @media (min-width: 992px) {
-             font-size: 2rem;
+            font-size: 2rem;
         }
     }
     .nav-link {
 
         &:hover {
             color: #000;
-       }
+    }
         @media (min-width: 992px) {
             font-size: 1.3rem;
-       }
+    }
     } 
 }
 .offCanvasHeaderMod {
