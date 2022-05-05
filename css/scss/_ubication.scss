@@ -1,0 +1,53 @@
+.ubication {
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -5px #000000;
+
+    .ubication__title {
+        text-align: center;
+        font-family: $mainFont;
+        padding: 10px 0;
+    }
+    .ubication__card {
+        .ubication__card-iframe {
+            //width: 100%;
+            .ubication__iframe {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+    .ubication__card-data {
+        .ubication__info {
+            font-family: $mainFont;
+            h3 {
+                text-align: center;
+            }
+            p {
+                line-height: 30px;
+                text-align: center;
+            }
+        }
+        .ubication__time {
+            font-family: $mainFont;
+            h3 {
+                padding: 10px 0px;
+                text-align: center;
+            }
+            .ubication__time-box  {
+                text-align: left;
+                padding: 10px;
+                margin-left: 15px;
+                p {
+                    padding: 10px 0;
+                    i {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
