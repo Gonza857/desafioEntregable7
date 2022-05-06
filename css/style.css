@@ -97,6 +97,10 @@
   }
 }
 
+.navbar .nav-link {
+  font-family: "Montserrat";
+}
+
 .navbar .nav-link:hover {
   color: #000;
 }
@@ -147,12 +151,6 @@
   background-position: center center;
   height: 450px;
   border-bottom: 1px solid #c7c7c7;
-}
-
-@media (max-width: 576px) {
-  .headerMod {
-    border: 1px solid red;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -302,6 +300,30 @@
 
 #parallax2 div .button::before {
   background-color: #e4f2e7;
+}
+
+.mainFont {
+  font-family: "Montserrat";
+}
+
+.cardTitleMod {
+  font-family: "Montserrat";
+}
+
+@media (min-width: 1200px) {
+  .cardTitleMod {
+    font-size: 2.2rem;
+  }
+}
+
+.cardTextMod {
+  font-family: "Montserrat";
+}
+
+@media (min-width: 1200px) {
+  .cardTextMod {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 1024px) {
