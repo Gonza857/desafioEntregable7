@@ -3,11 +3,8 @@
     background-size: cover;
     background-position: center center;
     height: 450px;
-
     border-bottom: 1px solid #c7c7c7;
-
     .imgContent {
-        
         .headerImg {
             height: 225px;
             width: 225px;
@@ -52,11 +49,14 @@
     background-size: cover;
     width: 100%;
     height: 200px;
+    @media (min-width: 600px) {
+        height: 300px;
+    }
     @media (min-width: 768px) {
         height: 350px;
     }
     @media (min-width: 1024px) {
-    height: 450px;
+        height: 450px;
     }
     div {
         h3 {
@@ -83,6 +83,9 @@
     background-size: cover;
     width: 100%;
     height: 200px;
+    @media (min-width: 600px) {
+        height: 300px;
+    }
     @media (min-width: 768px) {
         height: 350px;
     }
