@@ -72,8 +72,8 @@
 }
 
 .navbar {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
-  background-image: linear-gradient(to top, #93bfb7, #387373);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#69aaaa));
+  background-image: linear-gradient(to top, #93bfb7, #69aaaa);
 }
 
 .navbar .navbar-brand {
@@ -109,13 +109,13 @@
 
 .offCanvasHeaderMod {
   height: 57px;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
-  background-image: linear-gradient(to top, #93bfb7, #387373);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#69aaaa));
+  background-image: linear-gradient(to top, #93bfb7, #69aaaa);
 }
 
 .footer {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
-  background-image: linear-gradient(to top, #93bfb7, #387373);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#69aaaa));
+  background-image: linear-gradient(to top, #93bfb7, #69aaaa);
 }
 
 @media (min-width: 768px) {
@@ -154,16 +154,39 @@
   width: 225px;
 }
 
+@media (min-width: 576px) {
+  .headerMod .imgContent .headerImg {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerMod .imgContent .headerImg {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .headerMod .imgContent .headerImg {
+    margin-left: 75px;
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headerMod .imgContent .headerImg {
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+  }
+}
+
 @media (max-width: 992px) {
   .headerMod {
     margin-top: 0;
   }
-}
-
-.headerMod .offCanvasHeaderMod {
-  height: 57px;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#387373));
-  background-image: linear-gradient(to top, #93bfb7, #387373);
 }
 
 @media (min-width: 1024px) {
@@ -178,7 +201,7 @@
   display: -ms-flexbox;
   display: flex;
   background: #fff fixed no-repeat 50% 50%;
-  background-image: url(../assets/images/aboutus1.jpg);
+  background-image: url(../assets/images/parallax1.jpg);
   background-size: cover;
   width: 100%;
   height: 200px;
