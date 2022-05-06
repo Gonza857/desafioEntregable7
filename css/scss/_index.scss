@@ -4,6 +4,12 @@
     background-position: center center;
     height: 450px;
     border-bottom: 1px solid #c7c7c7;
+    @media (max-width: 576px) {
+        border: 1px solid red;
+    }
+    @media (min-width: 1200px) {
+        height: 700px;
+    }
     .imgContent {
         .headerImg {
             height: 225px;

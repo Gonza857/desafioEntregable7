@@ -149,6 +149,18 @@
   border-bottom: 1px solid #c7c7c7;
 }
 
+@media (max-width: 576px) {
+  .headerMod {
+    border: 1px solid red;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headerMod {
+    height: 700px;
+  }
+}
+
 .headerMod .imgContent .headerImg {
   height: 225px;
   width: 225px;
