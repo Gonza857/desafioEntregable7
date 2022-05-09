@@ -330,10 +330,66 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+  .cardContent .cardText .aboutUsTitleMod {
+    font-size: .7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .cardContent .cardText .aboutUsTitleMod {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cardContent .cardText .aboutUsTitleMod {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .cardContent .cardText .aboutUsTextMod {
+    font-size: .7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .cardContent .cardText .aboutUsTextMod {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardContent .cardText .aboutUsTextMod {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .cardContent .cardText .aboutUsBtnMod {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 992px) {
   .cardContent .aboutUsImg {
     width: 600px;
-    height: 400px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardContent .aboutUsImg {
+    width: 800px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cardContent .aboutUsImg {
+    width: 800px;
+    height: 350px;
   }
 }
 
@@ -345,13 +401,19 @@
 }
 
 .ubication .ubication__title {
-  text-align: center;
   font-family: "Montserrat";
-  padding: 10px 0;
+}
+
+.ubication .ubication__card .ubication__card-iframe {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  border: 3px solid blue;
 }
 
 .ubication .ubication__card .ubication__card-iframe .ubication__iframe {
   width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -359,36 +421,12 @@
   font-family: "Montserrat";
 }
 
-.ubication .ubication__card-data .ubication__info h3 {
-  text-align: center;
-}
-
 .ubication .ubication__card-data .ubication__info p {
   line-height: 30px;
-  text-align: center;
 }
 
 .ubication .ubication__card-data .ubication__time {
   font-family: "Montserrat";
-}
-
-.ubication .ubication__card-data .ubication__time h3 {
-  padding: 10px 0px;
-  text-align: center;
-}
-
-.ubication .ubication__card-data .ubication__time .ubication__time-box {
-  text-align: left;
-  padding: 10px;
-  margin-left: 15px;
-}
-
-.ubication .ubication__card-data .ubication__time .ubication__time-box p {
-  padding: 10px 0;
-}
-
-.ubication .ubication__card-data .ubication__time .ubication__time-box p i {
-  padding: 5px;
 }
 
 .form {
