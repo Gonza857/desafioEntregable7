@@ -8,4 +8,6 @@ C) Se agrego "alt" a cada imagen con su respectiva descripción.
 
 D) Todas las imagenes fueron optimizadas y recortadas según el tamaño requerido para ahorrar espacio y que cargue más rapido el sitio.
 
+E) Se pulio el orden del codigo con las tabulaciones y espacios.
+
 Att. Gonzalo Ramos
