@@ -44,3 +44,37 @@
         transform: scaleX(1) skewX(35deg);
     }
 }
+
+// EXTEND
+
+// .boton {
+    // border: 0;
+    //padding: 10px 15px;
+    // border-radius: 5px;
+
+ // .boton-primario {
+    //     @extend .boton
+    // }
+
+    // extiende las propiedades de la clase que le pongamos
+
+// MAP-GET
+
+// En variables:
+// $boton:(
+//     bordes: 0,
+//     padding: 20px,
+//     radio 5px
+// )
+
+// en el estilo que lo querramos aplicar lo llamamos
+// .boton {
+//     border: map-get($nombre de la lista: , $propiedad: )
+// }
+
+// EJEMPLO
+
+// .boton {
+//     border: map-get($boton: , bordes );
+// }
+// recorre las propiedades de $boton (que configuramos en _variables.scss, y como bordes vale 0, el border va a ser de 0 en la clase .boton.
